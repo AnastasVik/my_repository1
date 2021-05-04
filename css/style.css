@@ -1,0 +1,10 @@
+.fontcolor {
+    font-size: 50px;
+    color: darkgreen;
+}
+
+.fontstyle {
+    font-size: 30px;
+    color: darkolivegreen;
+    text-shadow: 3px 3px 10px black;
+}
