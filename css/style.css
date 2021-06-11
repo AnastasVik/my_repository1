@@ -1,3 +1,6 @@
+.bodysize{
+	font-size: 30px;
+}
 .fontcolor {
     font-size: 50px;
     color: darkgreen;
@@ -7,4 +10,19 @@
     font-size: 30px;
     color: darkolivegreen;
     text-shadow: 3px 3px 10px black;
+}
+
+.colora:visited{
+	text-decoration: none;
+	color:#6DD867;
+}
+
+.colora:hover{
+	text-decoration: none;
+	color:#678AD8;
+}
+
+.colora:active{
+	text-decoration: none;
+	color:#D8B067;
 }
