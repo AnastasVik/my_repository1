@@ -1,3 +1,4 @@
+@import "normalize.css"
 .bodysize{
 	font-size: 30px;
 }
@@ -12,17 +13,19 @@
     text-shadow: 3px 3px 10px black;
 }
 
-.colora:visited{
+.colora{
 	text-decoration: none;
+	font-size: 30px;
+}
+
+.colora:visited{
 	color:#6DD867;
 }
 
 .colora:hover{
-	text-decoration: none;
 	color:#678AD8;
 }
 
 .colora:active{
-	text-decoration: none;
 	color:#D8B067;
 }
