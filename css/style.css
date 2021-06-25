@@ -29,3 +29,12 @@
 .colora:active{
 	color:#D8B067;
 }
+
+.text{
+	color: violet;
+}
+
+.text:hover{
+	color: green;
+	box-shadow: 2px 2px 5px darkgreen;
+}
