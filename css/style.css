@@ -1,6 +1,12 @@
-@import "normalize.css"
-.bodysize{
-	font-size: 30px;
+@import "normalize.css";
+
+:focus, :active {outline: none;}
+
+.body{
+	font-size: 20px;
+	text-decoration: none;
+	box-shadow: none;
+	outline: none;
 }
 .fontcolor {
     font-size: 50px;
@@ -37,4 +43,22 @@
 .text:hover{
 	color: green;
 	box-shadow: 2px 2px 5px darkgreen;
+}
+
+.font_of_form{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	outline: none;
+}
+
+.username{
+
+}
+
+.username:focus{
+	border: 1px solid rgb(137, 183, 209);
+	border-radius: 1px;
+	box-shadow: 2px 2px 5px rgb(33, 120, 170);
+}
+.textarea_css:focus{
+	border: 5px solid darkgreen;
 }
